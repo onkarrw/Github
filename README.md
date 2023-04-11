@@ -106,9 +106,12 @@ Finally, update the README.md file in your repository to include information abo
 3. Navigate to the directory where you want to clone the forked repository.
 
 
-Command: git clone <repository-url>
-  
-  
+ 
+
+ 
+
+`` git clone <repository-url>	``
+
   
 ###### Replace <repository-url> with the URL of your forked repository that you copied earlier.
 
@@ -117,7 +120,11 @@ Command: git clone <repository-url>
 1. Change to the cloned repository directory using the cd command.
 2. Run the following command to create a new branch:
 
-  git checkout -b <branch-name>
+  
+  
+  
+
+`` git checkout -b <branch-name> ``
   
 ###### Replace <branch-name> with a descriptive name for your new branch.
 
@@ -127,24 +134,36 @@ Command: git clone <repository-url>
 2. Save the changes.
 3. In the terminal, run the following command to stage the changes:
 
-  git add .
+
+  
+  
+
+`` git add . ``
+ 
+
   
 This stages all the changes you made.
 
 4. Run the following command to commit the changes:
 
-  git commit -m "Your commit message here"
+  
+  
+`` git commit -m "Your commit message here"``
+ 
 
-Replace "Your commit message here" with a brief and descriptive commit message.
+###### Replace "Your commit message here" with a brief and descriptive commit message.
 
 #### Pushing Changes to Your Forked Repository:
 
 1. Run the following command to push the changes to your forked repository:
 perl
 
-  git push origin <branch-name>
   
-Replace <branch-name> with the name of the branch you created earlier.
+  
+  
+`` git push origin <branch-name> ``
+  
+###### Replace <branch-name> with the name of the branch you created earlier.
 
 ## Submitting a Pull Request:
 
