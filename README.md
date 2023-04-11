@@ -89,3 +89,72 @@ Finally, update the README.md file in your repository to include information abo
 * Click on the "Commit changes" button to update the README.md file.
 
 
+
+## Here's a step-by-step procedure for forking a repository and submitting a pull request on GitHub:
+
+## Forking a Repository:
+
+1. Navigate to the repository you want to fork on GitHub.
+2. Click on the "Fork" button on the top-right corner of the repository page.
+3. Choose the account or organization where you want to fork the repository.
+4. Wait for the forking process to complete. Once it's done, you will be redirected to your forked repository on GitHub.
+
+#### Cloning the Forked Repository:
+
+1. On your forked repository page, click on the "Code" button and copy the URL of the repository.
+2. Open a terminal on your local machine.
+3. Navigate to the directory where you want to clone the forked repository.
+
+
+Command: git clone <repository-url>
+  
+  
+  
+###### Replace <repository-url> with the URL of your forked repository that you copied earlier.
+
+#### Creating a New Branch:
+
+1. Change to the cloned repository directory using the cd command.
+2. Run the following command to create a new branch:
+
+  git checkout -b <branch-name>
+  
+###### Replace <branch-name> with a descriptive name for your new branch.
+
+#### Making Changes and Committing:
+
+1. Open the necessary files (such as README.md, CONTRIBUTING.md, etc.) in a text editor and make the desired changes.
+2. Save the changes.
+3. In the terminal, run the following command to stage the changes:
+
+  git add .
+  
+This stages all the changes you made.
+
+4. Run the following command to commit the changes:
+
+  git commit -m "Your commit message here"
+
+Replace "Your commit message here" with a brief and descriptive commit message.
+
+#### Pushing Changes to Your Forked Repository:
+
+1. Run the following command to push the changes to your forked repository:
+perl
+
+  git push origin <branch-name>
+  
+Replace <branch-name> with the name of the branch you created earlier.
+
+## Submitting a Pull Request:
+
+1. Go to your forked repository on GitHub.
+2. Click on the "Pull requests" tab.
+3. Click on the "New pull request" button.
+4. Choose the base repository and branch that you want to merge your changes into.
+5. Choose your forked repository and the branch you created with your changes.
+6. Click on the "Create pull request" button.
+7. Provide a descriptive title and comment for your pull request.
+8. Click on the "Create pull request" button to submit your pull request.
+
+After submitting the pull request, the repository owner or designated maintainers will review your changes and provide feedback. Once the changes are approved, they will be merged into the base repository.
